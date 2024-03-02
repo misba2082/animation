@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>
+            smoke animation
+        </title>
+        <style type="text/css">
+            body{
+                background: black;
+            }
+            section{
+                height: 100vh;
+            }
+            h1{
+                position: absolute;
+                top: 35%;
+                left: 25%;
+                color: #ddd;
+                font-size: 5em;
+                letter-spacing: 0.2em;
+            }
+            h1 span{
+                opacity: 0;
+                display: inline-block;
+                animation: animation 1s linear forwards;
+            }
+            @keyframes animation{ 0%
+                {opacity:0;
+                transform: rotateY(90deg);
+                filter: blur(10px);
+                }
+
+
+                
+            100%{
+                opacity: 1;
+            transform: rotateY(0deg);
+            filter: blur(0px);
+            }
+        }
+
+            
+            
+        </style>
+        
+    
+    </head>
+    <body>
+        <section>
+            <video src="smoke.mp4" autoplay muted ></video>
+<h1>
+    <span>A</span>
+    <span>N</span>
+    <span>I</span>
+    <span>M</span>
+    <span>A</span>
+    <span>T</span>
+    <span>I</span>
+    <span>O</span>
+    <span>N</span>
+    
+    </h1>
+        </section>
+    </body>
+</html>
